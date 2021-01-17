@@ -420,76 +420,7 @@ marquee{
     border: 0;
     margin-left: -20px;
   }
-  
-  /*media queries*/
-  @media (min-width:992px) and (max-width:1100px){
-    .pockets-main p {
-      font-size: 22px;
-      width: 684px;
-      margin:0 auto;
-      margin-bottom: 20px !important;
-    }
-    .accordion_body {
-      padding: 35px 40px 5px;
-    }
-    .accordion_body img {
-      max-width: 205px;
-      margin-bottom: 20px;
-    }
-  }
-  @media (min-width: 768px) and (max-width: 991px){
-    .pockets-main {
-      padding: 30px 15px;
-    }
-    .pockets-main h1 {
-      font-size: 45px;
-      margin: 0 0px 20px;
-    }
-    .pockets-main p {
-      font-size: 20px !important;
-      margin-bottom: 20px !important;
-      width: 600px;
-      margin: 0 auto;
-    }
-    .intro-cont h3,
-    .div-bott h3{
-      font-size: 30px;
-      margin: 35px 0;
-    }
-    .kind h2 {
-      font-size: 30px;
-      margin: 35px 0 30px;
-    }
-    .accordion_head {
-      font-size: 20px;
-      padding: 11px 18px;
-    }
-    .plusminus {
-      font-size: 27px;
-      margin-top: -5px;
-    }
-    .accordion-main {
-      margin-bottom: 24px;
-    }
-    .hr-clc {
-      margin-top: 16px;
-      width: 15px;
-      margin-left: -15px;
-    }
-    .accordion_body {
-      font-size: 18px;
-      padding: 30px 40px 5px;
-    }
-    .accordion_body img {
-      width: 100%;
-      max-width: 185px;
-      margin-bottom: 20px;
-    }
-    .accordion_body h3 {
-      font-size: 24px;
-    }
-  }
-  
+
   @media (min-width: 576px) and (max-width: 767px){
     .pockets-main {
       padding: 35px 15px;
@@ -748,7 +679,7 @@ marquee{
   float: right;
 }
 }
-}
+
 
 .table-responsive
 {
@@ -846,16 +777,8 @@ object-fit: cover;
 
 
 /*slideshow*/
-* {box-sizing: border-box}
-.mySlides {display: none}
-img {vertical-align: middle;}
 
-/* Slideshow container */
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-}
+
 
 /* Next & previous buttons */
 .prev, .next {
@@ -926,4 +849,18 @@ img {vertical-align: middle;}
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .prev, .next {font-size: 11px}
+}
+
+@media only screen and (max-width: 950px){
+  .d-block{
+     height: 400px;
+  }
+
+}
+
+@media only screen and (max-width: 400px){
+  .d-block{
+     height: 200px;
+  }
+
 }
